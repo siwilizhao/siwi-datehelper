@@ -1,0 +1,34 @@
+{
+  "name": "siwi-datehelper",
+  "version": "2.0.0",
+  "description": "[![node](https://img.shields.io/node/v/siwi-datehelper.svg)](https://www.npmjs.com/package/siwi-datehelper)\r [![Build Status](https://travis-ci.org/siwilizhao/siwi-datehelper.svg?branch=master)](https://travis-ci.org/siwilizhao/siwi-datehelper)\r [![npm](https://img.shields.io/npm/v/siwi-datehelper.svg)](https://www.npmjs.com/package/siwi-datehelper)\r [![npm](https://img.shields.io/npm/dt/siwi-datehelper.svg)](https://www.npmjs.com/package/siwi-datehelper)\r [![Github file size](https://img.shields.io/github/size/siwilizhao/siwi-datehelper/lib/index.js.svg)](https://github.com/siwilizhao/siwi-datehelper/lib/index.js)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwilizhao/siwi-datehelper.git"
+  },
+  "keywords": [
+    "datehelper"
+  ],
+  "author": "siwilizhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siwilizhao/siwi-datehelper/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/siwi-datehelper#readme",
+  "engines": {
+    "node": ">= 8.9"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
