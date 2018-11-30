@@ -10,4 +10,4 @@ before_install:
 cache:
   yarn: true
 
-script: npm run mocha
+script: npm test
