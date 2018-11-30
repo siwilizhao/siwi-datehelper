@@ -15,6 +15,10 @@
     "url": "git+https://github.com/siwilizhao/siwi-datehelper.git"
   },
   "keywords": [
+    "siwi",
+    "siwilizhao",
+    "strtotime",
+    "time formate",
     "datehelper"
   ],
   "author": "siwilizhao",

@@ -17,4 +17,10 @@ describe('index.js', () => {
         console.log(f);
         expect(f).to.be.a('string')
     });
+    it('strtotime', async () => {
+        const str = '2018-11-30'
+        const f = await dateHelper.strtotime(str)
+        console.log(f)
+        expect(f).to.be.an('number')
+    });
 });
