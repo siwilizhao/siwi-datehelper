@@ -4,7 +4,7 @@ node_js:
 - '8'
 
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.7
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
   - export PATH="$HOME/.yarn/bin:$PATH"
   - yarn add -D mocha chai
 cache:
