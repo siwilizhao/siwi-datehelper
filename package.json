@@ -1,14 +1,14 @@
 {
   "name": "siwi-datehelper",
   "version": "2.0.1",
-  "description": "[![node](https://img.shields.io/node/v/siwi-datehelper.svg)](https://www.npmjs.com/package/siwi-datehelper)\r [![Build Status](https://travis-ci.org/siwilizhao/siwi-datehelper.svg?branch=master)](https://travis-ci.org/siwilizhao/siwi-datehelper)\r [![npm](https://img.shields.io/npm/v/siwi-datehelper.svg)](https://www.npmjs.com/package/siwi-datehelper)\r [![npm](https://img.shields.io/npm/dt/siwi-datehelper.svg)](https://www.npmjs.com/package/siwi-datehelper)\r [![Github file size](https://img.shields.io/github/size/siwilizhao/siwi-datehelper/lib/index.js.svg)](https://github.com/siwilizhao/siwi-datehelper/lib/index.js)",
+  "description": "time formate for nodejs",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test"
+    "test": "./node_modules/mocha/bin/mocha -t 30000 test/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
     "siwilizhao",
     "strtotime",
     "time formate",
-    "datehelper"
+    "datehelper",
+    "siwi-datehelper"
   ],
   "author": "siwilizhao",
   "license": "MIT",
