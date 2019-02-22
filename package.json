@@ -1,6 +1,6 @@
 {
   "name": "siwi-datehelper",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "time formate for nodejs",
   "main": "index.js",
   "directories": {
